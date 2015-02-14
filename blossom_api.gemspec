@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = BlossomApi::VERSION
   spec.authors       = ["John Pinkerton"]
   spec.email         = ["jpinkerton88@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Ruby wrapper for Blossom API.}
+  spec.description   = %q{}
   spec.homepage      = ""
   spec.license       = "MIT"
 
