@@ -1,6 +1,6 @@
 # BlossomApi
 
-TODO: Write a gem description
+Ruby wrapper for the Blossom API.
 
 ## Installation
 
@@ -20,7 +20,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+my_project = BlossomApi::Project.new(organization_id: 'xxx', project_id: 'xxx', access_token: 'xxx')
+my_project.create_card 'New feature', 'Description of the feature'
+```
+
+More features to come...
+
 
 ## Contributing
 
