@@ -1,6 +1,6 @@
 # BlossomApi
 
-Ruby wrapper for the Blossom API.
+Ruby wrapper for the [Blossom](http://blossom.io) API.
 
 ## Installation
 
