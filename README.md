@@ -21,7 +21,12 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-my_project = BlossomApi::Project.new(organization_id: 'xxx', project_id: 'xxx', access_token: 'xxx')
+my_project = BlossomApi::Project.new(
+  organization_id: 'xxx',
+  project_id: 'xxx',
+  access_token: 'xxx'
+)
+
 my_project.create_card 'New feature', 'Description of the feature'
 ```
 
