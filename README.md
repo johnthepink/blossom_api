@@ -27,7 +27,8 @@ my_project = BlossomApi::Project.new(
   access_token: 'xxx'
 )
 
-my_project.create_card 'New feature', 'Description of the feature'
+card = my_project.create_card 'New feature', 'Description of the feature'
+my_project.update_card card, 'Actually this feature', 'does this thing'
 ```
 
 More features to come...
